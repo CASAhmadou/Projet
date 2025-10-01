@@ -1,0 +1,43 @@
+ Environnement virtuel
+venv/
+venv_dl/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Modèles sauvegardés
+models/
+*.h5
+*.keras
+*.pb
+
+# Images générées (optionnel - commentez si vous voulez les inclure)
+# *.png
+# *.jpg
+
+# Données
+*.csv
+*.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
